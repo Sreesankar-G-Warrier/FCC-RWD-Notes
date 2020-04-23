@@ -1,0 +1,31 @@
+I learned HTML5
+
+<!DOCTYPE html>: represents the version of the html
+<html></html>:inside this tag everything happens
+<head></head>:it contain meta,style,title
+<body></body>:contain the body of the WebPage like,div,p,h1,ul,ol,li etc.
+<div></div>:element is often used as a container for other HTML elements to style them with CSS or to perform certain tasks
+with JavaScript.
+<p></p>:paragraph
+<h1></h1>:heading <h6></h6>:max font size.
+<ul></ul>:unordered list
+<ol></ol>:ordered list
+<li></li>:list used in ordered and unordered.
+<input>:self closing tag, used to giving input.
+	name:can be refer in submitting a form.
+	value:specifies the value like, in password we can use the value as '*' or some other thing.
+	type:specifies the type of the input,it is a text,password etc.
+	placeholder:It helps the users to know, what kind of input should be given in that field.
+Things used in input element.
+<label></label>:For label something like, checkbox, radiobox.
+	for:Define for what purpose.
+<footer></footer>:define the footer.
+	id:to identifies the id when we're referring somewhere else.
+<a></a>:anchor.
+	href:used to attach hyperlinks. '#' for internal references.
+	src:define the source of the object.
+checked:default selection used in in checkbox and radio buttons.
+required:it helps the user to fill all of the form without missing any inputs.
+<form></form>:Used for submitting something.
+	action:The form-handler is typically a server page with a script for processing input data.The form-handler is
+specified in the form's action attribute

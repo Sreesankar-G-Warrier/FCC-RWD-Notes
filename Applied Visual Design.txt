@@ -1,0 +1,77 @@
+text-align: Alignment
+	justify:Like in the notes.
+	right:to align right
+	centre:to centre the text
+	left:default
+text-style:em-italic,strong-bold,s-strikethrough,hr-horizontal line,u-underline
+<rgba>
+height
+width
+font-size
+box-shadow:property applies one or more shadows to an element.
+	offset-x :(how far to push the shadow horizontally from the element).
+	offset-y :(how far to push the shadow vertically from the element).
+	blur-radius:
+	spread-radius:
+	color:
+opacity:property in CSS is used to adjust the opacity, or conversely, the transparency for an item.
+text-transform: property in CSS is used to change the appearance of text. It's a convenient way to make sure text on a 
+webpage appears consistently, without having to change the text content of the actual HTML elements.
+	uppercase: UPPERCASE the letters
+	lowercase: lowercase the letters
+	inherit: inherit from the parent element
+	initial: default
+	none:Use the original text.
+line-height:space btwn lines.
+Hue:hsl(hue,saturation,lightness);
+Linear-gradient(deg, from color, to color): Gives gradient effects.
+repeating-linear-gradient():The repeating-linear-gradient() CSS function creates an image consisting of 
+repeating linear gradients. It is similar to linear-gradient() and takes the same arguments, but it 
+repeats the color stops infinitely in all directions so as to cover its entire container.
+transform: scale(); : Helps to scale the element.
+	   element/id/class.hover{transform:scale the object}; : helps to hover when the mouse moves over 
+the object.
+transform: skew(degree);:Skew along different axis, like skewX, skewY, skewZ.
+pseudo-class is a keyword that can be added to selectors, in order to select a specific state of the 
+element.
+	:hover: transition when move mouse over text or any other element.
+CSS-box-model:CSS treats each HTML element as its own box, which is usually referred to as the CSS 
+Box Model. Block-level items automatically start on a new line (think headings, paragraphs, and divs)
+while inline items sit within surrounding content (like images or spans). The default layout of elements 
+in this way is called the normal flow of a document, but CSS offers the position property to override it.
+	When the position of an element is set to relative, it allows you to specify how CSS should 
+move it relative to its current position in the normal flow of the page. It pairs with the CSS offset 
+properties of left or right, and top or bottom. These say how many pixels, percentages, or ems to move 
+the item away from where it is normally positioned. 
+CSS-Offset:The CSS offsets of top or bottom, and left or right tell the browser how far to 
+offset an item relative to where it would sit in the normal flow of the document. You're offsetting 
+an element away from a given spot, which moves the element away from the referenced side (effectively, 
+the opposite direction). As you saw in the last challenge, using the top offset moved the h2 downwards. 
+Likewise, using a left offset moves an item to the right.
+	position:relative(can move) or absolute(can't move) or fixed(can't move even when we scroll down or up);
+	direction:in pixels;
+float:select direction;
+z-index: Helps to overlap and can do good positioning.
+::before and ::after:These pseudo-elements are used to add something before or after a selected element. 
+In the following example, a ::before pseudo-element is used to add a rectangle to an 
+element with the class.For the ::before and ::after pseudo-elements to function properly, 
+they must have a defined content property. This property is usually used to add 
+things like a photo or text to the selected element.When the ::before and 
+::after pseudo-elements are used to make shapes, the content property is still required, 
+but it's set to an empty string.
+animation and @keyframes:Example
+  #rect {
+    animation-name: rainbow;
+    animation-duration: 4s;
+  }
+  @keyframes rainbow {
+    0%{
+      background-color: blue;
+    }
+    50%{
+      background-color:green;
+    }
+    100%{
+      background-color: yellow;
+    }
+  }

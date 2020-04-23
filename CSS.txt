@@ -1,0 +1,42 @@
+.class:{}
+element:{}
+#id:{}
+border-radius:%;
+border-width:;
+border-color:;
+border:style:;
+<link>:
+font-family:;
+font-size:;
+padding:The padding property in CSS defines the innermost portion of the box model, creating space around an element's 
+content, inside of any defined margins and/or borders.You can use paddding(top,right,bottom,left)like this;
+	top
+	right
+	left
+	bottom
+margin:The margin property defines the space around an HTML element. It is possible
+to use negative values to overlap content. ... The margin-bottom specifies the bottom margin of an 
+element.you can use margin property(top,right,bottom,left)like this;
+	top
+	right
+	left
+	bottom
+[attr=value]:Represents elements with an attribute name of attr whose value is exactly value. [attr~=value] Represents elements with an attribute name of attr 
+whose value is a whitespace-separated list of words, one of which is exactly value;
+px:The last several challenges all set an element's margin or padding with pixels (px). Pixels are a type of length unit, which is what tells the 
+browser how to size or space an item. In addition to px, CSS has a number of different length unit options that you can use.
+em,rem:Relative units, such as em or rem, are relative to another length value. For example, em is based on the size of an element's font. 
+If you use it to set the font-size property itself, it's relative to the parent's font-size.
+Overiding:Overiding colors usinng id,class,inline styles.
+!important: Helps to override all the other overrides over CSS.
+CSS Variables:CSS Variables are a powerful way to change many CSS style properties at once by changing only one value.
+	style-type:var(--variable);
+	--variable:value;
+Fallback:If the Browser doesn't supports the CSS Variable we can use the same function more than one time and provide the value that supported by the browser.
+Inheritance of CSS::root is a pseudo-class selector that matches the root element of the document, usually the html element. By creating your variables in :root, 
+they will be available globally and can be accessed from any other selector in the style sheet. :root: is a pseudo-class selector that matches the root element
+of the document, usually the html element. By creating your variables in :root, they will be available globally and can be accessed 
+from any other selector in the style sheet.
+	:root{can inherit the variable that is available in the sheet.}
+Media Libs: Can use media libraries for creating live objects.
+	transform: To transform the object to an motion.

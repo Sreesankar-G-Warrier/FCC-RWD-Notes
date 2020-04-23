@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Tangerine&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+html {
+    background-image: url('http://static.hdw.eweb4.com/media/wallpapers_dl/1/145/1442189-front-end-developer.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    font-family: tangerine;
+    font-size: 64px;
+    color: ivory;
+}
+p{
+    text-align: center;
+    font-family: Josefin sans;
+    color: lightskyblue;
+    font-size: 20px;
+
+}
+h3{
+    color: firebrick;
+    font-size: 22px;
+}
+form{
+    border-width: 60%;
+    padding: 30px 400px 30px 400px;
+    margin: auto;
+    color: ivory;
+    filter: brightness(2px);
+}
+fieldset{
+    background-color:transparent;
+    text-align: justify;
+    box-shadow: 1px 5px 20px 5px ivory;
+}
+legend{
+    font-size: 25px;
+    color: ivory;
+    font-weight: bolder;
+    
+}
+#name-label{
+    width: 100%;
+    padding: 15px 15px 15px 1px;
+    margin: auto;
+    box-sizing: border-box;
+    border-top-color: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom-color: ivory;
+    background-color: transparent;
+}
+#email-label{
+    width: 100%;
+    padding: 15px 15px 15px 1px;
+    margin: auto;
+    box-sizing: border-box;
+    border-top-color: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom-color: firebrick;
+    background-color: transparent;
+}
+#number-label{
+    width: 100%;
+    padding: 15px 15px 15px 1px;
+    margin: auto;
+    box-sizing: border-box;
+    border-top-color: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom-color: firebrick;
+    background-color: transparent;
+}
+#dropdown{
+    width: 100%;
+    padding: 15px 15px 15px 1px;
+    margin: auto;
+    box-sizing: border-box;
+    border-top-color: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom-color: firebrick;
+    background-color: transparent;
+}
+textarea{
+    width: 100%;
+    padding: 15px 1px 15px 1px;
+    margin: auto;
+    box-sizing: border-box;
+    background-color:transparent;
+    border-color: firebrick;
+}
+button{
+  background-color: firebrick;
+  border-radius: 10px;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  color:antiquewhite;
+  font-family: Bangers;
+  font-size: 22px;
+}
+::placeholder{
+    color: ivory;
+}
+#sur{
+    color: firebrick;
+}
+select{
+    color: ivory;
+}

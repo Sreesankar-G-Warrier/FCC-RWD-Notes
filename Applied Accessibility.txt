@@ -1,0 +1,18 @@
+<main>: Used to access the main contents on the page.
+<article>: is another one of the new HTML5 elements that adds semantic meaning to your markup. 
+article is a sectioning element, and is used to wrap independent, self-contained content. 
+The tag works well with blog entries, forum posts, or news article.
+<header>:The next HTML5 element that adds semantic meaning and improves accessibility is the header tag. 
+It's used to wrap introductory information or navigation links for its parent tag and works well 
+around content that's repeated at the top on multiple pages.Note: The header is meant for use in the body tag of your HTML document. This is different than the head element, which contains the page's title, meta information, etc.
+<nav>:The nav element is another HTML5 item with the embedded landmark feature for easy screen reader navigation. This tag is meant to wrap around the main navigation links in your page.
+<audio>:HTML5's audio element gives semantic meaning when it wraps sound or audio stream content in your markup. Audio content also needs a text alternative to be accessible to people who are deaf or hard of hearing. This can be done with nearby text on the page or a link to a transcript.
+	controls: controls attribute. This shows the browser default play, pause, and other controls, and supports keyboard functionality.
+<figure>:HTML5 introduced the figure element, along with the related figcaption. Used together, these items wrap a visual representation (like an image, diagram, or chart) along with its caption. This gives a two-fold accessibility boost by both semantically grouping related content, and providing a text alternative that explains the figure.
+	<figcaption>:Caption of the Figure.
+<fieldset>:The fieldset tag surrounds the entire grouping of radio buttons to achieve this. It often uses a legend tag to provide a description for the grouping, which is read by screen readers for each choice in the fieldset element.
+<input>:Forms often include the input field, which can be used to create several different form controls. The type attribute on this element indicates what kind of input will be created.
+	date:specifying the input values in date format.
+	pickdate:set in id element.
+accesskey:HTML offers the accesskey attribute to specify a shortcut key to activate or bring focus to an element. This can make navigation more efficient for keyboard-only users.
+tabindex:The HTML tabindex attribute has three distinct functions relating to an element's keyboard focus. When it's on a tag, it indicates that element can be focused on. The value (an integer that's positive, negative, or zero) determines the behavior.

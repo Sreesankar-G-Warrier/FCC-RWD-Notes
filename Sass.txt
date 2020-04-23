@@ -1,0 +1,80 @@
+$text-color: red;
+
+  .header{
+    text-align: center;
+  }
+  .blog-post, h2 {
+    color: $text-color;
+  }
+
+Oraganized as Parent and Child.
+  .blog-post {
+
+  h1 {
+    text-align: center;
+    color: blue;
+  }
+  p {
+    font-size: 20px;
+  }
+}
+
+@mixin
+@mixin border-radius($radius){
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+
+
+  #awesome {
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    @include border-radius(15px);
+  }
+
+@if and @else if
+@mixin border-stroke($val){
+  @if $val == light{
+    border: 1px solid black;
+  }
+  @else if $val == medium{
+    border: 3px solid black;
+  }
+  @else if $val == heavy{
+    border:6px solid black;
+      }
+    @else{
+      border:none;
+    }
+}
+
+@for from i through/to n{
+	id/class#{$i} {cssconditionn: operation * i; }
+}
+
+@each $variable variableinid1 variableinid2 variableinid3{
+	id/class#{$variable} {csscondition: $variable;}
+}
+
+$x: 1;
+@while $x <= 5 {
+    .text-#{$x} {font-size: 15px *$x;}
+    $x: $x + 1;
+}
+
+_partial.sass
+@import 'partialfilename'
+
+@extend 
+ .info{
+    width: 200px;
+    border: 1px solid black;
+    margin: 0 auto;
+  }
+.info-important{
+@extend .info;
+  background-color: magenta;
+}

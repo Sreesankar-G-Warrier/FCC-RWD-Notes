@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <link rel = "stylesheet"
+    type = "text/css"
+    href = "style.css" />
+<header>
+    <title>Survey Form</title>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+</header>
+<form id="survey-form">
+    <fieldset>
+    <legend>Complete the Survey Form:</legend>
+    <h3>Name</h3>
+    <input type="text" placeholder="Enter Name" required id="name-label"><br>
+    <h3>Email</h3>
+    <input type="email" placeholder="Enter EmailID" required id="email-label"><br>
+    <h3>Age</h3>
+    <input type="number" placeholder="Enter Age (Optional)" id="number-label"><br>
+    <h3>Which option best describes your current role?</h3>
+    <select id="dropdown" required>
+        <option value="Front End Developer">Front End Developer</option>
+        <option value="Back End Developer">Back End Developer</option>
+        <option value="Full Stack Developer">Full Stack Developer</option>
+    </select>
+    <h3>Would you recommend Our Survey to a friend?</h3>
+    <div id="sur">
+    <input type="radio" name="survey" value="yes">Yes<br>
+    <input type="radio" name="survey" value="no">No<br>
+    <input type="radio" name="survey" value="not sure">Not Sure<br>  
+    <h3>What would you like to see improved?</h3>
+    <input type="checkbox" >Front-end Projects<br>
+    <input type="checkbox" >Back-end Projects<br>
+    <input type="checkbox" >Full Stack Projects<br>
+</div>
+    <h3>Any Comments or Suggestions?</h3>
+    <textarea placeholder="Enter your Comment Here...." rows="15" cols="50"></textarea><br>
+    <button type="submit" id="submit" form="survey-form" value="Submit">Submit</button>
+</fieldset>
+</form>
+</html>
